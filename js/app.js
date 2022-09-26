@@ -24,7 +24,7 @@ function agregarTarea(e){
     const tarea = document.querySelector('#tarea').value; //textarea
  
     if (tarea === '') { //validacion
-        mostrarError('Una tarea no puede ir vacia, imbecil');
+        mostrarError('Una tarea no puede ir vacia');
         return; //previene que se ejecute el codigo que sigue
     };
 
